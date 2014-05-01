@@ -311,10 +311,10 @@ nmap <silent> <leader>qq :q<cr>
 nmap <silent> <leader>qa :qa<cr>
 
 "Tab configuration
-map <leader>tn :tabnew
-map <leader>te :tabedit
+map <leader>tn :tabnew<cr>
+map <leader>te :tabedit<cr>
 map <leader>tc :tabclose<cr>
-map <leader>tm :tabmove
+map <leader>tm :tabmove<cr>
 nmap <silent> <leader>bp :tabprevious<cr>
 nmap <silent> <leader>bn :tabnext<cr>
 nmap <F3> :tabprevious<cr>
@@ -376,6 +376,8 @@ autocmd BufWinEnter \[Buf\ List\] setl nonumber
 
 " NERDTree setting
 nmap <silent> <leader>tt :NERDTreeToggle<cr>
+nmap <silent> <leader>mm :NERDTreeMirror<cr>
+nmap <silent> <leader>ff :NERDTreeFind<cr>
 
 
 " Super Tab
