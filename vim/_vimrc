@@ -96,7 +96,7 @@ set backspace=indent,eol,start
 set whichwrap=b,s,<,>,[,]
 
 "将一个tab设置为>-格式,用$结尾
-set listchars=tab:>-,eol:$
+set listchars=tab:>-,eol:%
 "set listchars=tab:>-
 
 "vim使用自动对起，也就是把当前行的对起格式应用到下一行；
@@ -499,6 +499,6 @@ filetype plugin on
 "在.bashrc的文件中添加如下一行 
 "stty -ixon
 noremap <C-S> :update<CR>
-vnoremap <C-S> <C-C>:update<CR>
-inoremap <C-S> <C-O>:update<CR>
+"vnoremap <C-S> <C-C>:update<CR>
+"inoremap <C-S> <C-O>:update<CR>
 "
