@@ -1,7 +1,7 @@
 # vim: ft=gitconfig
 
 [core]
-    autocrlf = input
+    autocrlf = false #该参数可以是input，true，false，回车换行转换，会引发莫名其妙的问题
     whitespace = trailing-space,space-before-tab,indent-with-non-tab
 
 [user]
