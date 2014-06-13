@@ -5,13 +5,8 @@
     whitespace = trailing-space,space-before-tab,indent-with-non-tab
 
 [user]
-<<<<<<< HEAD
-    name = 星星 
+    name = 王星星 
     email = wangxx2026@126.com
-=======
-    name = rockywu 吴佳雷 
-    email = rockywu@anjuke.com
->>>>>>> 释放压缩文件
 
 [alias]
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
